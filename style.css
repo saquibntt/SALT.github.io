@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+header{
+    background-color: #f0efef;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: rgb(22, 137, 190);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+color: chocolate;
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 500;
+padding-left: 30px;
+}
+.navigation a:hover{
+    color: coral;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/background/intro.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(22, 137, 190);
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    color: white;
+    background-color: tomato;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.187em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: rgb(124, 122, 119);
+    transform: scale(1.1);
+}
+.social-icons a{
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title{
+    font-size: 4em;
+    font-weight: 700;
+
+}
+.education{
+background-color: #597d9e;
+
+}
+.period{
+
+    display:inline-block;
+
+}
+.period h4{
+
+    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+}
+.period h4 span{
+
+    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+.worktime:hover{
+    transform: scale(1.1);  
+
+}
+.work{
+
+    margin: 20px;
+}
+.worktime{
+
+    display: inline-block;
+    background-color: burlywood;
+    border-radius: 10px;  
+    transition: 0.7s ease;
+    margin-top: 20px;
+    width: 75%;
+
+}
+.worktitle{
+
+    display: inline-block;
+    background-color: rgb(168, 168, 167);
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+.lists{
+    padding: 10px;
+
+}
+ 
+.contact{
+    background-color: #597d9e;
+
+}
+.projects-body{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+
+}
+
+.card{
+    background-image: url(images/background/intro.jpg);
+    padding-top: 40px;
+    border-radius: 10px;
+    margin: 10px;
+   width: 11.25em;
+
+
+
+}
+.card h4{
+
+    margin-top: 40px;
+    padding: 10px;
+    background-color: cornsilk;
+    border-radius: 10px;
+    opacity: 0.7;
+
+
+}
